@@ -38,7 +38,15 @@ Screenshots: `screenshots/02_claw_question_1.png`, `screenshots/03_claw_question
 **Q3 — curve-fitting vs resolution (interrogates the low-confidence pattern target):**
 > You rated conviction 5/10 partly because the pattern confidence is only 22% and the target ~$105.9 is a mechanical output. If I treat the conflicting MACD/RSI as the central question, is a higher-timeframe (1h/4h) re-run the right way to resolve it, or would that just be curve-fitting? What would you look for in the order book or funding to confirm which of the two diverging signals is the real one?
 
-Each question connects a specific report finding to a market hypothesis, contradiction, or risk — rather than asking for a price prediction.
+**Q4 — liquidity/holder concentration risk (grounded in the pair's ~45 LPs, ~30K holders, thin volume):**
+> The report leans on thin ~$425K volume, and this pair shows only ~45 liquidity providers and ~30K holders. How exposed is the bullish MACD read to a single large LP pulling depth or a top-holder sell — is the 'upward bias' actually robust, or an artifact of a shallow book? What LP-depth or holder-concentration level would make you discount the signal entirely?
+
+**Q5 — beta vs idiosyncratic strength (grounded in the live BTC ~$80.5K readout):**
+> SOL's intraday momentum here is read in isolation, but the terminal shows BTC around $80.5K. If SOL's bullish MACD cross is mostly beta to a broader large-cap bounce rather than idiosyncratic strength, how would I separate correlation-driven movement from genuine SOL-specific accumulation, and does that change how much weight the MACD/RSI divergence conflict deserves?
+
+Screenshots: `02_claw_question_1.png`, `03_claw_questions_2_3.png`, `04_claw_question_4_liquidity_concentration.png`, `05_claw_question_5_beta_vs_idiosyncratic.png`.
+
+Each question connects a specific report/on-page finding to a market hypothesis, contradiction, or risk — rather than asking for a price prediction.
 
 > Note on AI responses: at the time of capture, RaptorX's Claw AI 5.0 answers were not returning because the platform's Helius Solana RPC key was rate-limited (HTTP 429 "max usage reached") on the backend. The questions above were submitted and recorded in the Claw AI 5.0 chat (visible in the screenshots and the platform's chat history).
 
