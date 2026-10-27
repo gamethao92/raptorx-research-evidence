@@ -1,0 +1,194 @@
+The Intelligent Terminal for Prediction Markets & Crypto.
+RexScreener
+Claw AI 5.0
+Rex Predictions
+Market Overview
+
+Real time insights powered by Claw AI 5.0.
+
+Solana / WETH
+Expand chart
+Live
+$BTC:
+$80,546.00
+0.82%
+$ETH:
+$2,339.88
+1.13%
+$USDT:
+$1.00
+0.01%
+$BNB:
+$747.31
+0.80%
+$XRP:
+$1.32
+2.10%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.91
+0.48%
+$TRX:
+$0.33
+0.14%
+$FIGR_HELOC:
+$1.03
+1.28%
+$ZEC:
+$1,295.34
+5.66%
+$HYPE:
+$81.16
+2.93%
+$DOGE:
+$0.08
+1.30%
+$XMR:
+$600.85
+0.89%
+$USDS:
+$1.00
+0.01%
+$WBT:
+$77.36
+0.79%
+$BTC:
+$80,546.00
+0.82%
+$ETH:
+$2,339.88
+1.13%
+$USDT:
+$1.00
+0.01%
+$BNB:
+$747.31
+0.80%
+$XRP:
+$1.32
+2.10%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.91
+0.48%
+$TRX:
+$0.33
+0.14%
+$FIGR_HELOC:
+$1.03
+1.28%
+$ZEC:
+$1,295.34
+5.66%
+$HYPE:
+$81.16
+2.93%
+$DOGE:
+$0.08
+1.30%
+$XMR:
+$600.85
+0.89%
+$USDS:
+$1.00
+0.01%
+$WBT:
+$77.36
+0.79%
+Terms of Service
+© 2026 Raptorx. All Rights Reserved
+
+No reports yet
+
+Generate your first report to get started!
+
+minimize
+Rex Pilot
+
+Your AI Pilot for everything crypto
+
+minimize
+Technical Analysis
+
+Generate technical analysis for Solana
+
+Generate Moving Average Convergence Divergence analysis
+Generating… 44s
+Generate Relative Strength Index analysis
+RSI Indicator
+Identify Cup & Handle chart patterns
+Cup & Handle
+Generate all technical indicators at once
+Generated!
+
+AI-powered analysis using TradingView data
+
+Analysis Results
+All Indicators
+Refresh
+ SOL Technical Analysis — 15-Minute Timeframe
+
+ 1. Overview & Context
+
+SOL is trading at $101.05, up 0.48% over 24 hours on relatively light volume (~$425K) against a reported market cap of ~$28.6M. Note: the contract address provided (0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82) is an Ethereum-style address, which is inconsistent with native Solana (SOL) — this may be a wrapped/bridged asset or a data mismatch. Treat the analysis as valid for the price series shown, but verify the instrument before trading. The 15-minute chart is a short-term, noise-heavy timeframe; these signals should be read as intraday momentum cues, not trend confirmation.
+
+ 2. MACD Analysis
+
+The MACD histogram has just flipped from negative to positive (0.001 → 0.002 over the last two candles), and the MACD line (0.003) is now above the signal line (0.001). A bullish crossover was printed at position 5, following an earlier bearish crossover at position 2. This sequence — bearish cross, brief negative histogram, then a bullish cross — is characteristic of a shallow pullback resolving into renewed upside momentum. Critically, the MACD values are very small and compressed near zero, meaning momentum is building but is not yet decisive. The rising histogram is the most constructive signal in this dataset, but it needs follow-through to be meaningful.
+
+ 3. RSI Analysis
+
+RSI is at 50, dead neutral. The sequence (45→48→52→58→62→65→60→55→50) shows a completed round trip: momentum pushed toward overbought (65), then faded back to the midpoint. Two divergences are flagged — bullish at position 2 (price lower low vs. RSI higher low) and bearish at position 6 (price higher high vs. RSI lower high). The bearish divergence at position 6 aligns with the RSI peak at 65 and the subsequent fade, suggesting the recent up-move lost steam. RSI at 50 gives no directional edge — there is room to move either way without hitting 30 or 70.
+
+ 4. Cup and Handle Pattern
+
+No pattern detected — confidence is only 22.32%, well below any actionable threshold. The "target price" of ~$105.92 should be disregarded as a projection; it is a mechanical output of an unconfirmed pattern. The one supportive detail is increasing volume during consolidation, which can precede a breakout, but without a validated cup-and-handle structure this is weak evidence on its own.
+
+ 5. Key Levels & Signals to Watch
+
+- Momentum trigger: MACD histogram holding positive and expanding above 0.002; a reversal back below zero would invalidate the bullish cross.
+- RSI pivots: Reclaiming 60–65 would confirm renewed upside momentum; slipping below 45 would signal weakening.
+- Price reference levels: The unconfirmed pattern target near $105.9 is the nearest upside magnet if momentum continues; the recent consolidation zone (implied by the pattern ranges) acts as support.
+- Volume: Watch for expansion — current volume is modest, and breakouts on thin volume tend to fail.
+
+ 6. Short-Term Outlook (24–48 Hours)
+
+Neutral-to-mildly-bullish, low conviction. The freshest signals (MACD bullish cross, rising histogram) lean positive, but RSI at 50 and the recent bearish divergence cap the upside case. The most likely path is continued range-bound consolidation with an upward bias, unless volume expands to confirm direction. A clean break above the consolidation with rising volume would favor the bulls; a MACD histogram reversal would return the picture to neutral.
+
+ 7. Potential Trade Setups
+
+- Momentum continuation (long): Enter on confirmation of the MACD bullish cross — histogram expanding and RSI pushing above 60 — with a stop below the consolidation low. Target the $105.9 area only if volume confirms.
+- Range/fade (short): If RSI rejects near 60–65 again (repeating the position-6 divergence) and the histogram rolls over, a fade back toward range support is viable.
+- Stand aside: Given the 22% pattern confidence, neutral RSI, and thin volume, waiting for a confirmed breakout or breakdown is the lower-risk approach.
+
+ 8. Confidence Score
+
+5/10. The indicator data is internally consistent but conflicting (bullish MACD vs. bearish RSI divergence), values are compressed near zero, volume is light, and the pattern is unconfirmed. Additionally, the contract address inconsistency warrants verification before acting on this analysis.
+Exchange Tokens Instantly
+
+Fast, secure swaps powered by RaptorX.
+
+minimize
+0xB6E8A...C0c58
+
+Exchange
+
+From
+
+ETH
+Base
+
+To
+
+SOL
+Base
+
+Send
+
+$0.00
+
+Exchange
