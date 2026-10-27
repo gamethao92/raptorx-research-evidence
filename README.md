@@ -54,3 +54,30 @@ Each question connects a specific report/on-page finding to a market hypothesis,
 
 ## Method / reproducibility
 Headless Chrome (puppeteer-core) driving the live raptorx.trade UI; wallet login via Privy SIWE with the self-owned Base key; report generated through the Intelligence Report panel; questions typed into Claw AI 5.0 in Solana mode. Screenshots captured directly from the rendered pages.
+
+---
+
+## 4. Second report — multi-asset breadth (Base chain)
+
+To demonstrate the challenge's emphasis on breadth, I generated a **second, independent Intelligence Report on a different chain and a different real token** using the same RexScreener flow (Chain → token → Expand Intelligence Report → Generate All).
+
+**Asset:** VIRTUAL Protocol / WETH — a genuine, established Base-ecosystem AI-agent token (not a memecoin).
+- Full extracted report text: `report_base_virtual_15m.txt` (verbatim Claw AI output — separate MACD analysis and a composite MACD+RSI analysis, each with its own confidence score).
+- Screenshot: `screenshots/06_base_virtual_report.png` (Base VIRTUAL/WETH Intelligence Report, "Generated!", MACD + RSI panels, live chart).
+
+**Key findings I built the follow-up questions on:**
+- 15m MACD: bullish crossover at position 5, histogram expanding −0.001 → +0.002, but **absolute values tiny (0.001–0.003)** → early-stage, near-zero-line signal.
+- RSI exactly **50 (dead neutral)**; trajectory 45→48→52→58→62→65 then faded to 60→55→50 with a **bearish divergence at position 6**.
+- Price $0.6253, +2.28% / 24h, volume ~$3M on ~$412M mcap → **~0.73% vol/mcap, thin**.
+- Composite conviction **~5/10**; pattern target $0.744 (~19% above) called "not actionable on the 15m alone".
+
+**Questions 6–7 asked to Claw AI 5.0 (Base context):**
+- Screenshot `screenshots/07_base_claw_question1.png`, `screenshots/08_base_claw_question2.png`.
+
+**Q6 — resolving the MACD/RSI conflict on a fresh asset:**
+> Your VIRTUAL/WETH report gives a mildly bullish 15m MACD read but flags confidence only 5/10 because absolute MACD values are tiny (0.001-0.003) and volume is thin (~$3M on a ~$412M market cap, ~0.73%). Given the RSI is exactly 50 with a bearish divergence already printed, which of the two conflicting signals should dominate a decision, and what specific threshold (volume-to-mcap ratio or MACD magnitude) would flip your read from 'upward tilt' to 'stand aside'?
+
+**Q7 — VIRTUAL-specific setup vs beta to ETH / AI-sector rotation:**
+> The report says VIRTUAL is coiling in consolidation on rising volume with an unconfirmed $0.744 target (~19% above the $0.6253 print). On Base, this token's move is heavily correlated to the broader AI-agent narrative and to WETH itself. How do I separate a VIRTUAL-specific breakout setup from simple beta to ETH plus a sector rotation, and if the breakout fails at the range high, what is the most defensible invalidation level from the price structure the report describes?
+
+Together the two reports (Solana SOL and Base VIRTUAL) span **two chains and two distinct market structures**, and the seven questions interrogate signal-vs-divergence conflicts, data integrity, liquidity concentration, beta attribution, and pattern confidence — testing the tool across assets rather than hammering one ticker.
