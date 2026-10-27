@@ -52,5 +52,23 @@ Each question connects a specific report/on-page finding to a market hypothesis,
 
 ---
 
+## 3. Second Solana report (fresh snapshot) + Q6 — deepening the analysis on the same eligible asset
+
+The challenge rewards a small number of *exceptional* questions and permits any number of reports, provided the asset is on **Solana**. Rather than straying off-asset, I generated a **second, independent SOL Intelligence Report on the same Solana asset at a later live snapshot** (SOL ~$101.09, +0.74%) and used the new data to ask a sharper question.
+
+- Full extracted report text: `report_solana_15m_v2.txt` (verbatim Claw AI output — overall conviction **4/10**, vs the first report's 5/10).
+- Screenshot: `screenshots/06_solana_report_v2_fresh.png`.
+
+**The new report surfaced a contradiction worth interrogating:** the model explicitly disowned its own pattern layer — cup-and-handle "detection parameters are mismatched to the actual price scale," the ~$117 target "should be disregarded," and the reported market cap (~$28.6M) is "inconsistent with SOL's actual supply" (likely exchange-specific / low-float).
+
+**Q6 — data provenance of the entire technical layer (challenges whether the momentum signal is independent confirmation or inherits the same flaw):**
+> Your fresh SOL report explicitly distrusts its own pattern layer — it says the cup-and-handle detection is "mismatched to the actual price scale," the ~$117 target "should be disregarded," and the market cap (~$28.6M) is "inconsistent with SOL's actual supply." Yet you still returned a mildly bullish MACD/RSI momentum read at only 4/10. If mcap, pattern, and volume are all flagged unreliable, what is the actual provenance and integrity of the OHLCV series feeding MACD and RSI themselves? Are those exact price/volume bars drawn from the same mislabeled, exchange-specific low-float pair — meaning the 4/10 momentum read inherits the same data flaw you flagged in the pattern layer, rather than being an independent confirmation of it?
+
+Screenshot: `screenshots/07_claw_question_6_provenance.png` (Q6 rendered in the Claw AI 5.0 chat, Solana mode, logged-in wallet visible).
+
+This question goes a level deeper than Q1–Q5: instead of asking the AI to weigh conflicting signals, it attacks the **input integrity** the signals are built on — the model's momentum "confirmation" may be the same low-float artifact it already dismissed in the pattern layer.
+
+---
+
 ## Method / reproducibility
 Headless Chrome (puppeteer-core) driving the live raptorx.trade UI; wallet login via Privy SIWE with the self-owned Base key; report generated through the Intelligence Report panel; questions typed into Claw AI 5.0 in Solana mode. Screenshots captured directly from the rendered pages.
