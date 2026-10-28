@@ -1,0 +1,44 @@
+{
+ "captured_at_utc": "2026-10-28T14:08:35Z",
+ "chain": "base (chainId 8453)",
+ "token": "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
+ "rpc_1": "https://base-rpc.publicnode.com",
+ "rpc_2": "https://1rpc.io/base",
+ "calls": {
+  "name()": {
+   "selector": "0x06fdde03",
+   "result": "0x...0020 0x0006 \"Solana\"",
+   "decoded": "Solana"
+  },
+  "symbol()": {
+   "selector": "0x95d89b41",
+   "result": "0x...0020 0x0003 \"SOL\"",
+   "decoded": "SOL"
+  },
+  "decimals()": {
+   "selector": "0x313ce567",
+   "result": "0x09",
+   "decoded": 9
+  },
+  "totalSupply()": {
+   "selector": "0x18160ddd",
+   "result": "0x010105e984c34c",
+   "decoded_raw": "282599880966988",
+   "decoded": 282599.880966988
+  }
+ },
+ "derived": {
+  "supply_times_price_101.09_usd": 28567421.2,
+  "note": "282,599.880966988 * 101.09 = $28,567,421 -> matches the report's flagged ~$28.6M market cap"
+ },
+ "aerodrome_v1_factory": {
+  "factory": "0x420DD381b31aEf6683db6B902084cB0FFECe40Da",
+  "getPool(SOL,USDC,stable=false)": "0xb98Fb80d89d9cF33C3726843fcBF68E6a7D64c00",
+  "getPool(SOL,USDC,stable=true)": "0x0000000000000000000000000000000000000000",
+  "reserves_at_1793166603": {
+   "SOL": 0.000754938,
+   "USDC": 0.077352
+  },
+  "conclusion": "the canonical Aerodrome v1 SOL/USDC pool is empty (dust); a chart labelled Aerodrome SOL/USDC cannot be this pool"
+ }
+}

@@ -95,3 +95,17 @@ That reply is the kind of reasoning the brief asks for — it took the report's 
 - Raw page dumps: `transcript/claw_q1_page_dump.txt` (chat DOM text at capture time).
 
 > Honest note on the UI: RaptorX's own ad unit renders a third-party "new airdrop" string into the chart header and the exchange widget in these captures (visible above the MACD chart). It is the platform's UI, not part of the report text or the model's answer.
+
+---
+
+## 5. Independent on-chain check of the report's own data caveat (2026-10-28T14:08Z)
+
+The model answered Q1 but Q6 (provenance of the OHLCV feed) stayed unanswered, so I verified the instrument directly instead of asking again. Full write-up: `onchain_verification.md`; raw reads: `data/token_metadata.json`; pool snapshot: `data/dexscreener_token_pairs_2026-10-28T1408Z.json`.
+
+**The address is a real Base ERC-20, and the "wrong" market cap is not a bug.** `eth_call` on two independent RPCs (`base-rpc.publicnode.com`, `1rpc.io/base`) returns `name()="Solana"`, `symbol()="SOL"`, `decimals()=9`, `totalSupply()=282,599.880966988`. At the report's $101.09 that is **$28,567,421 — the exact ~$28.6M** the v2 report called "inconsistent with SOL's actual supply". It was this token's float all along, which confirms the report's wrapped/bridged-asset caveat rather than a data mismatch.
+
+**The "thin $425K" verdict describes one pool, not the asset.** The token is base in 25 Base pools (Aerodrome/Aero, PancakeSwap, Uniswap, Equalizer, Hydrex): aggregate liquidity **$2.80M**, 24h volume **$12.65M**, last-hour volume **$1.02M**. The ~$425K matches a single Aerodrome SOL/USDC pool ($129,693 liquidity, $358,242/24h) — ~30× below the asset's actual turnover. The deepest SOL/USDC venue is Aero `0x868Eed6BAD…` ($489,866 liquidity, $4.17M/24h).
+
+**The canonical Aerodrome pool is empty.** Aerodrome v1 factory `0x420D…40Da`: `getPool(SOL,USDC,false)` = `0xb98Fb80d…` with reserves 0.000754938 SOL / 0.077352 USDC; no stable pool exists. A chart labelled "Aerodrome SOL/USDC" cannot be that pool.
+
+**Why it matters for the question:** the model's $1–2M/day noise floor is cleared ~12× market-wide but *not* in the pool the report charted — so the threshold has to be applied per venue, and the 15m MACD/RSI describe bridged-pool flow, not native Solana spot. That is the answer to Q6 obtained from data rather than from the model.
