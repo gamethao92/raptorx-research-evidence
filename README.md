@@ -1,9 +1,11 @@
 # RaptorX Research Challenge — Entry Evidence
 
 **Challenge:** Ask Better Questions. Find Better Alpha.
-**Chosen asset:** SOL (Solana) — native Solana token, legitimate / established.
+**Chosen asset:** SOL (Solana) — established Solana asset; the platform's feed is a bridged Base representation, verified on-chain in §5.
 **Participant wallet (Base, self-owned):** `0xB6E8A315CA639bcA70BeD7ff8c391b0cEbdC0c58`
 **Platform:** https://www.raptorx.trade — logged in via wallet SIWE (Privy embedded wallet).
+
+**The question this entry turns on:** *the report shows a fresh bullish MACD cross (+0.001 → +0.002) against a bearish RSI divergence at position 6 and a dead-neutral RSI of 50 on ~$425K volume, on an instrument whose contract is an Ethereum-style `0x3119…` rather than a Solana mint — which signal carries directional weight, and what depth/volume threshold separates a real breakout from noise?* The model answered it with a bridged-feed decision rule (net LP delta first, $1–2M/day noise floor, ±2% depth and $15–20k candle falsifiers) in `transcript/claw_q1_answer_net_lp_adds.txt`; I then verified the premise on-chain (§5) and tested the report's own indicator values against public feeds (§6).
 
 This entry contains (1) a genuine AI research report generated on RaptorX and (2) the original, report-grounded questions asked to RaptorX's Claw AI 5.0 model. All artifacts were produced inside the live RaptorX UI; screenshots are in `screenshots/`.
 
