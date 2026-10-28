@@ -72,3 +72,26 @@ This question goes a level deeper than Q1–Q5: instead of asking the AI to weig
 
 ## Method / reproducibility
 Headless Chrome (puppeteer-core) driving the live raptorx.trade UI; wallet login via Privy SIWE with the self-owned Base key; report generated through the Intelligence Report panel; questions typed into Claw AI 5.0 in Solana mode. Screenshots captured directly from the rendered pages.
+
+---
+
+## 4. 2026-10-28 update — Claw AI 5.0 answers now return, and they answer Q7
+
+The earlier captures were blocked by a backend RPC rate limit, so they show questions only. On **2026-10-28** the same logged-in wallet (same account, same chat history) got a full model response, so this section records a genuine question → answer exchange rather than a bare prompt.
+
+**Q7 — the strongest version of the Q1 tension, made falsifiable (bridged-feed + thin-book + noise floor in one question):**
+> Your SOL 15m report shows a fresh bullish MACD crossover (histogram -0.001 -> +0.002) while RSI sits at a dead-neutral 50 and prints a bearish divergence at position 6, on only ~$425K daily volume - and the instrument's contract address is an Ethereum-style 0x3119... rather than a Solana mint. If that means this feed is bridged/wrapped SOL traded on a Base DEX pool rather than native Solana spot, then part of what the report labels 'SOL momentum' is really pool flow. Which on-chain series - pool TVL delta, net LP adds, or top-holder net transfer - would you pull first to decide whether the MACD flip is genuine spot demand or thin-book noise, and at what dollar volume does a 15m indicator stop being informative?
+
+**Answer (verbatim, 3.2 KB, full text in `transcript/claw_q1_answer_net_lp_adds.txt`):** the model accepted the bridged-feed premise ("likely a wrapped SOL variant like cbSOL or axlSOL") and answered with a decision rule instead of a price call:
+
+- **Ranked metric:** net LP adds/removals first — "thin-book noise: MACD flips bullish, but Net LP is negative"; "genuine demand: MACD flips bullish, and Net LP is positive".
+- **Why not holders:** top holders of a bridged Base asset are usually bridge contracts (Across, Stargate) or the DEX router, so holder concentration is "misleading for bridged assets".
+- **Noise floor:** "indicators typically lose predictive power when daily volume drops below $1M–$2M", with the arithmetic spelled out (at ~$425K/day a single $2,000 buy is ~50% of a 15m candle).
+- **Falsification tests:** disregard the MACD if ±2% depth < $10,000; cross-check Polymarket SOL odds; require a $15k–$20k spike in one 15m candle before trusting the crossover.
+
+That reply is the kind of reasoning the brief asks for — it took the report's own internal contradiction (Ethereum-style contract on a "Solana" asset), turned it into a hypothesis about pool flow, and returned measurable thresholds that can be checked later rather than a direction call.
+
+- Screenshots: `screenshots/08_claw_q1_sol_momentum_question.png` (question + 15m MACD report in the chat, logged-in avatar), `screenshots/09_claw_q1_answer_report_body.png`, `screenshots/10_claw_q1_answer_key_levels.png`, `screenshots/11_claw_q1_answer_sources.png`.
+- Raw page dumps: `transcript/claw_q1_page_dump.txt` (chat DOM text at capture time).
+
+> Honest note on the UI: RaptorX's own ad unit renders a third-party "new airdrop" string into the chart header and the exchange widget in these captures (visible above the MACD chart). It is the platform's UI, not part of the report text or the model's answer.
