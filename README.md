@@ -109,3 +109,17 @@ The model answered Q1 but Q6 (provenance of the OHLCV feed) stayed unanswered, s
 **The canonical Aerodrome pool is empty.** Aerodrome v1 factory `0x420D…40Da`: `getPool(SOL,USDC,false)` = `0xb98Fb80d…` with reserves 0.000754938 SOL / 0.077352 USDC; no stable pool exists. A chart labelled "Aerodrome SOL/USDC" cannot be that pool.
 
 **Why it matters for the question:** the model's $1–2M/day noise floor is cleared ~12× market-wide but *not* in the pool the report charted — so the threshold has to be applied per venue, and the 15m MACD/RSI describe bridged-pool flow, not native Solana spot. That is the answer to Q6 obtained from data rather than from the model.
+
+---
+
+## 6. Executed falsification test: can the report's indicators be reproduced from public data? (2026-10-28T14:12Z)
+
+Full write-up `cross_venue_test.md`; computed series `data/rsi_replication_2026-10-28.json`. The v2 report is timestamped `2026-10-27T21:07Z`, inside every feed's window, so this is like-for-like.
+
+RSI(14) is scale-free and therefore the clean target. The report prints `45 → 48 → 52 → 58 → 62 → 65 → 60 → 55 → 50`. Recomputed on 15m closes at that bar for **8 Base SOL pools** (Aerodrome/Aero, PancakeSwap, Uniswap; USDC/WETH/cbBTC) plus **Binance** and **OKX**:
+
+- No series matches: best case is still **7.6 RSI points** off (Aero SOL/WETH), worst **16.1**, and the *shape* is wrong everywhere — real series stay inside a 48–62 band instead of climbing to 65 and decaying to 50.
+- The MACD sign is inverted: the report says the histogram "just flipped positive (+0.002)"; on all ten series that bar reads **−0.019 to −0.084**.
+- It is not a quote-asset mix-up — WETH, USDC, cbBTC pools and two CEX feeds all disagree the same way.
+
+Honest limit: TradingView may aggregate venues in a way none of these sources does, so this proves **non-reproducibility from public data**, not fabrication. Together with the same report's self-disclaimed pattern layer ("parameters mismatched", confidence 9.78%), the conclusion is that the technical layer's provenance is unverified and its momentum and pattern layers are not independent confirmations of each other — which is Q6, answered with a test instead of a re-ask.

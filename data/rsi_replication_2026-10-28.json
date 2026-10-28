@@ -1,0 +1,229 @@
+{
+ "report_generated_utc": "2026-10-27T21:07Z",
+ "report_rsi_sequence": [
+  45,
+  48,
+  52,
+  58,
+  62,
+  65,
+  60,
+  55,
+  50
+ ],
+ "method": "RSI(14) Wilder on 15m closes from GeckoTerminal pool OHLCV (USD) and exchange klines; last 9 values compared to the sequence printed in the report; offsets 0..5 bars scanned",
+ "pools": {
+  "PancakeSwap SOL/USDC ($69k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.540761583185,
+   "rsi_last9": [
+    50.4,
+    49.4,
+    53.1,
+    59.1,
+    52.4,
+    50.4,
+    53.8,
+    49.5,
+    49.5
+   ],
+   "rsi_err_at_bar": 14.6,
+   "macd_line": 0.1036,
+   "signal": 0.1478,
+   "hist": -0.0442,
+   "best_offset_bars": 2,
+   "best_err": 8.9
+  },
+  "Aerodrome SOL/USDC ($130k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.559089103614,
+   "rsi_last9": [
+    50.9,
+    50.1,
+    53.3,
+    53.1,
+    53.2,
+    50.7,
+    54.7,
+    49.5,
+    50.2
+   ],
+   "rsi_err_at_bar": 14.3,
+   "macd_line": 0.0912,
+   "signal": 0.1322,
+   "hist": -0.041,
+   "best_offset_bars": 1,
+   "best_err": 11.8
+  },
+  "Uniswap SOL/USDC ($62k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.234141705227,
+   "rsi_last9": [
+    56.5,
+    57.0,
+    56.7,
+    53.7,
+    54.1,
+    55.6,
+    50.5,
+    50.5,
+    49.2
+   ],
+   "rsi_err_at_bar": 11.5,
+   "macd_line": 0.1576,
+   "signal": 0.1922,
+   "hist": -0.0347,
+   "best_offset_bars": 4,
+   "best_err": 8.0
+  },
+  "Aero SOL/USDC ($490k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.582911225495,
+   "rsi_last9": [
+    49.8,
+    55.1,
+    58.7,
+    51.3,
+    51.5,
+    49.4,
+    46.4,
+    48.8,
+    49.8
+   ],
+   "rsi_err_at_bar": 15.6,
+   "macd_line": 0.0574,
+   "signal": 0.141,
+   "hist": -0.0836,
+   "best_offset_bars": 3,
+   "best_err": 9.6
+  },
+  "PancakeSwap SOL/cbBTC ($726k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.961777793459,
+   "rsi_last9": [
+    58.1,
+    55.8,
+    58.4,
+    58.0,
+    58.5,
+    62.2,
+    52.6,
+    55.6,
+    54.5
+   ],
+   "rsi_err_at_bar": 13.1,
+   "macd_line": 0.14,
+   "signal": 0.1597,
+   "hist": -0.0197,
+   "best_offset_bars": 5,
+   "best_err": 8.0
+  },
+  "PancakeSwap SOL/WETH ($495k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 101.042017581323,
+   "rsi_last9": [
+    58.1,
+    55.3,
+    57.1,
+    58.5,
+    58.9,
+    54.6,
+    50.1,
+    52.7,
+    56.1
+   ],
+   "rsi_err_at_bar": 13.1,
+   "macd_line": 0.1236,
+   "signal": 0.1514,
+   "hist": -0.0278,
+   "best_offset_bars": 5,
+   "best_err": 8.5
+  },
+  "Aero SOL/cbBTC ($549k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 101.092988430816,
+   "rsi_last9": [
+    55.8,
+    54.0,
+    56.0,
+    55.8,
+    57.2,
+    53.3,
+    51.9,
+    54.8,
+    56.8
+   ],
+   "rsi_err_at_bar": 11.7,
+   "macd_line": 0.133,
+   "signal": 0.1517,
+   "hist": -0.0186,
+   "best_offset_bars": 1,
+   "best_err": 9.1
+  },
+  "Aero SOL/WETH ($38k liq)": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 100.992069424007,
+   "rsi_last9": [
+    61.1,
+    55.3,
+    57.1,
+    57.6,
+    58.1,
+    54.9,
+    50.1,
+    52.5,
+    54.7
+   ],
+   "rsi_err_at_bar": 16.1,
+   "macd_line": 0.1203,
+   "signal": 0.1527,
+   "hist": -0.0324,
+   "best_offset_bars": 5,
+   "best_err": 7.6
+  }
+ },
+ "cex": {
+  "Binance SOLUSDT": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 101.11,
+   "rsi_last9": [
+    56.8,
+    56.0,
+    59.8,
+    57.6,
+    58.2,
+    55.5,
+    51.7,
+    53.6,
+    55.4
+   ],
+   "rsi_err_at_bar": 11.8,
+   "macd_line": 0.1186,
+   "signal": 0.1449,
+   "hist": -0.0263,
+   "best_offset_bars": 5,
+   "best_err": 8.2
+  },
+  "OKX SOL-USDT": {
+   "bar": "2026-10-27T21:00Z",
+   "close": 101.1,
+   "rsi_last9": [
+    56.8,
+    56.0,
+    59.9,
+    57.9,
+    58.3,
+    55.6,
+    51.8,
+    53.6,
+    55.2
+   ],
+   "rsi_err_at_bar": 11.8,
+   "macd_line": 0.1191,
+   "signal": 0.1462,
+   "hist": -0.0271,
+   "best_offset_bars": 5,
+   "best_err": 8.2
+  }
+ }
+}
