@@ -1,0 +1,113 @@
+The Intelligent Terminal for Prediction Markets & Crypto.
+RexScreener
+Claw AI 5.0
+Rex Predictions
+
+Claw Version 5
+
+New chat
+Library
+CHATS
+Your SOL 15m report prints RSI 50 with a fresh bul
+You put the noise floor for a fifteen minute indic
+Your SOL 15m report shows a fresh bullish MACD cro
+Your target on this Solana setup comes from a patt
+Your target on this Solana setup comes from a patt
+Your target on this Solana setup comes from a patt
+See more
+Share
+Your SOL 15m report prints RSI 50 with a fresh bullish MACD crossover, histogram +0.002. I recomputed RSI(14) on 15m closes at your report timestamp (2026-10-27T21:07Z) across eight Base SOL pools (Aerodrome/Aero, PancakeSwap, Uniswap; USDC/WETH/cbBTC) plus Binance and OKX: no series matches - RSI is 7.6 to 16.1 points away, the 65 -> 50 shape is absent (all ten stay inside 48-62), and the MACD histogram reads -0.019 to -0.084, the opposite sign. If the chart's OHLCV comes from a venue none of those ten sources sees, name that venue or the oracle behind it. If it cannot be named, should a trader treat this momentum read as actionable at all - and what single reproducibility check should invalidate it before any position is sized?
+Internet Markets
+Live
+$BTC:
+$80,454.00
+0.05%
+$ETH:
+$2,330.91
+0.48%
+$USDT:
+$1.00
+0.00%
+$BNB:
+$749.03
+0.20%
+$XRP:
+$1.31
+0.67%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.92
+0.15%
+$TRX:
+$0.33
+0.87%
+$FIGR_HELOC:
+$1.03
+0.18%
+$ZEC:
+$1,273.93
+1.10%
+$HYPE:
+$79.74
+0.28%
+$DOGE:
+$0.08
+1.53%
+$XMR:
+$601.69
+1.83%
+$USDS:
+$1.00
+0.02%
+$WBT:
+$77.22
+0.14%
+$BTC:
+$80,454.00
+0.05%
+$ETH:
+$2,330.91
+0.48%
+$USDT:
+$1.00
+0.00%
+$BNB:
+$749.03
+0.20%
+$XRP:
+$1.31
+0.67%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.92
+0.15%
+$TRX:
+$0.33
+0.87%
+$FIGR_HELOC:
+$1.03
+0.18%
+$ZEC:
+$1,273.93
+1.10%
+$HYPE:
+$79.74
+0.28%
+$DOGE:
+$0.08
+1.53%
+$XMR:
+$601.69
+1.83%
+$USDS:
+$1.00
+0.02%
+$WBT:
+$77.22
+0.14%
+Terms of Service
+© 2026 Raptorx. All Rights Reserved

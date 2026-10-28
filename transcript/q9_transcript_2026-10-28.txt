@@ -1,0 +1,113 @@
+The Intelligent Terminal for Prediction Markets & Crypto.
+RexScreener
+Claw AI 5.0
+Rex Predictions
+
+Claw Version 5
+
+New chat
+Library
+CHATS
+Earlier you told me that net LP additions below ro
+Your SOL 15m report prints RSI 50 with a fresh bul
+You put the noise floor for a fifteen minute indic
+Your SOL 15m report shows a fresh bullish MACD cro
+Your target on this Solana setup comes from a patt
+Your target on this Solana setup comes from a patt
+See more
+Share
+Earlier you told me that net LP additions below roughly $1-2M/day are noise for a 15m SOL read. Today the bridged-SOL pools behind your chart carry about $12.7M of daily volume across 25 Base pools, but volume is not the same thing as net LP adds. What on-chain measurement separates genuine net liquidity provision from wash or cyclic volume in those pools, and how much of that $12.7M would you honestly count toward your own threshold before treating a momentum signal as real rather than noise?
+Internet Markets
+Live
+$BTC:
+$80,436.00
+0.09%
+$ETH:
+$2,330.05
+0.71%
+$USDT:
+$1.00
+0.00%
+$BNB:
+$748.56
+0.26%
+$XRP:
+$1.31
+0.92%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.93
+0.02%
+$TRX:
+$0.33
+0.82%
+$FIGR_HELOC:
+$1.03
+0.03%
+$ZEC:
+$1,270.53
+3.26%
+$HYPE:
+$79.99
+0.26%
+$DOGE:
+$0.08
+1.20%
+$XMR:
+$605.02
+2.39%
+$USDS:
+$1.00
+0.02%
+$WBT:
+$77.21
+0.24%
+$BTC:
+$80,436.00
+0.09%
+$ETH:
+$2,330.05
+0.71%
+$USDT:
+$1.00
+0.00%
+$BNB:
+$748.56
+0.26%
+$XRP:
+$1.31
+0.92%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.93
+0.02%
+$TRX:
+$0.33
+0.82%
+$FIGR_HELOC:
+$1.03
+0.03%
+$ZEC:
+$1,270.53
+3.26%
+$HYPE:
+$79.99
+0.26%
+$DOGE:
+$0.08
+1.20%
+$XMR:
+$605.02
+2.39%
+$USDS:
+$1.00
+0.02%
+$WBT:
+$77.21
+0.24%
+Terms of Service
+© 2026 Raptorx. All Rights Reserved

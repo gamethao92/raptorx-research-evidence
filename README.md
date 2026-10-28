@@ -125,3 +125,17 @@ RSI(14) is scale-free and therefore the clean target. The report prints `45 → 
 - It is not a quote-asset mix-up — WETH, USDC, cbBTC pools and two CEX feeds all disagree the same way.
 
 Honest limit: TradingView may aggregate venues in a way none of these sources does, so this proves **non-reproducibility from public data**, not fabrication. Together with the same report's self-disclaimed pattern layer ("parameters mismatched", confidence 9.78%), the conclusion is that the technical layer's provenance is unverified and its momentum and pattern layers are not independent confirmations of each other — which is Q6, answered with a test instead of a re-ask.
+
+---
+
+## 7. Questions 8–9 (2026-10-28): two deliberately hard follow-ups — questions recorded, replies did not arrive
+
+Both were asked in the live Claw AI 5.0 chat. The model's reply to Q7 took about 12 minutes; for these two the observed session window produced no reply, and their state is recorded exactly as seen rather than paraphrased.
+
+**Q8 — provenance gate before any position is sized (asked 2026-10-28T16:07:54Z).** Built directly on §6: the report's MACD sign cannot be reproduced on ten public series, so the question asks the model to name the venue or oracle behind its chart — or concede the momentum read is not actionable — and to state the single reproducibility check that should invalidate it before sizing. No reply after 55 minutes (checks at ~10, 25 and 55 minutes). Evidence: `screenshots/q8_question_2026-10-28.png`, `transcript/q8_transcript_2026-10-28.txt` (question in the composer, no answer bubble).
+
+**Q9 — audit of the model's own noise threshold (asked 2026-10-28T16:39:34Z).** Follow-up to the Q7 answer: if net LP additions below ~$1–2M/day are noise, then of the $12.65M/day these 25 Base pools turn over, how much is genuine net liquidity provision rather than wash or cyclic flow, and by what on-chain measurement would the model separate the two? No reply within the first 30 minutes; one further check was scheduled. Evidence: `screenshots/q9_question_2026-10-28.png`, `transcript/q9_transcript_2026-10-28.txt`.
+
+`questions.json` lists all nine questions verbatim (Q1–Q9).
+
+Why unanswered questions are included: the challenge judges the questions, and these two close the loops opened in §5–§6 — Q8 demands the provenance §6 shows is missing, and Q9 turns the model's own noise threshold into a measurable test. They are left as asked, timestamped, with the UI state preserved, rather than dressed up. Honest status: replies pending; if the model answers before the deadline, this section will be updated with the answer text and screenshots.
