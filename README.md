@@ -136,6 +136,18 @@ Both were asked in the live Claw AI 5.0 chat. The model's reply to Q7 took about
 
 **Q9 — audit of the model's own noise threshold (asked 2026-10-28T16:39:34Z).** Follow-up to the Q7 answer: if net LP additions below ~$1–2M/day are noise, then of the $12.65M/day these 25 Base pools turn over, how much is genuine net liquidity provision rather than wash or cyclic flow, and by what on-chain measurement would the model separate the two? No reply within the first 30 minutes; one further check was scheduled. Evidence: `screenshots/q9_question_2026-10-28.png`, `transcript/q9_transcript_2026-10-28.txt`.
 
-`questions.json` lists all nine questions verbatim (Q1–Q9).
+`questions.json` lists all ten questions verbatim (Q1–Q10).
 
 Why unanswered questions are included: the challenge judges the questions, and these two close the loops opened in §5–§6 — Q8 demands the provenance §6 shows is missing, and Q9 turns the model's own noise threshold into a measurable test. They are left as asked, timestamped, with the UI state preserved, rather than dressed up. Honest status: replies pending; if the model answers before the deadline, this section will be updated with the answer text and screenshots.
+
+---
+
+## 8. Q10 — cross-report consistency challenge (2026-10-29): asked, reply pending
+
+A deliberately narrow question about **internal consistency between two reports of the same asset**: the first report prints cup-and-handle pattern confidence 22.32%, the second 9.78%, on adjacent snapshots with apparently unchanged chart inputs. The question asks what changed between runs — data window, detector parameters, or a model-side threshold — and, if the detector is re-parameterised per run, how any confidence number from these reports can be compared across time.
+
+Asked 2026-10-29T08:55Z in a fresh chat; no reply within the observed window (48-second checks; the page text after the question contains only the site ticker). The model has been quota-limited since Q7, so this is recorded as a question-only capture, like Q8–Q9, with the UI state preserved.
+
+Evidence: `screenshots/q10_question_2026-10-29.png` (question in the composer, logged-in session), `transcript/q10_page_2026-10-29.txt` (page text).
+
+Why it matters for the challenge: the claim under test is not the report's market opinion but its own reproducibility across runs — the same axis as §6, applied to the report pipeline rather than to public feeds.

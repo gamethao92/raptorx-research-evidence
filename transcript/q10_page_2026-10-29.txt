@@ -1,0 +1,113 @@
+The Intelligent Terminal for Prediction Markets & Crypto.
+RexScreener
+Claw AI 5.0
+Rex Predictions
+
+Claw Version 5
+
+New chat
+Library
+CHATS
+Your two SOL 15m reports for the same asset and ad
+The report flags that the instrument's contract ad
+Earlier you told me that net LP additions below ro
+Your SOL 15m report prints RSI 50 with a fresh bul
+You put the noise floor for a fifteen minute indic
+Your SOL 15m report shows a fresh bullish MACD cro
+See more
+Share
+Your two SOL 15m reports for the same asset and adjacent snapshots disagree on the cup-and-handle pattern confidence: 22.32% in the first, 9.78% in the second, while the chart inputs look unchanged. What exactly changed between those runs - data window, detector parameters, or a model-side threshold - and if the detector is re-parameterised per run, how can any confidence number from this report be compared across time?
+Internet Markets
+Live
+$BTC:
+$80,097.00
+0.90%
+$ETH:
+$2,316.70
+1.47%
+$USDT:
+$1.00
+0.02%
+$BNB:
+$746.27
+0.28%
+$XRP:
+$1.30
+2.70%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.06
+1.48%
+$TRX:
+$0.33
+0.49%
+$FIGR_HELOC:
+$1.03
+0.09%
+$ZEC:
+$1,269.48
+2.84%
+$HYPE:
+$79.08
+3.49%
+$DOGE:
+$0.08
+0.98%
+$XMR:
+$589.78
+1.73%
+$USDS:
+$1.00
+0.01%
+$WBT:
+$76.84
+0.98%
+$BTC:
+$80,097.00
+0.90%
+$ETH:
+$2,316.70
+1.47%
+$USDT:
+$1.00
+0.02%
+$BNB:
+$746.27
+0.28%
+$XRP:
+$1.30
+2.70%
+$USDC:
+$1.00
+0.01%
+$SOL:
+$100.06
+1.48%
+$TRX:
+$0.33
+0.49%
+$FIGR_HELOC:
+$1.03
+0.09%
+$ZEC:
+$1,269.48
+2.84%
+$HYPE:
+$79.08
+3.49%
+$DOGE:
+$0.08
+0.98%
+$XMR:
+$589.78
+1.73%
+$USDS:
+$1.00
+0.01%
+$WBT:
+$76.84
+0.98%
+Terms of Service
+© 2026 Raptorx. All Rights Reserved
